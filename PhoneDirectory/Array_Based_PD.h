@@ -56,7 +56,19 @@ private:
 	class Directory_Entry 
 	{
 	public:   
-		// Blah, blah, blah!
+		Directory_Entry(){}
+		Directory_Entry(std::string the_name, std::string the_number) {
+
+		}
+		std::string get_name() const {
+			return "";
+		}
+		std::string get_number() const {
+			return "";
+		}
+		void set_number(const std::string& new_number) {
+
+		}
 	private:  
 	};
 

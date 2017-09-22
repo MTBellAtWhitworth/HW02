@@ -84,8 +84,8 @@ private:
 		}
 	private:
 		//2 data fields
-		string name; //name of individual
-		string number; //phone number for individual
+		std::string name; //name of individual
+		std::string number; //phone number for individual
 	};
 
 	// Private Functions

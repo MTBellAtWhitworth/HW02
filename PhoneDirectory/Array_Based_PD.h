@@ -55,9 +55,37 @@ public:
 private:
 	class Directory_Entry 
 	{
-	public:   
-		// Blah, blah, blah!
-	private:  
+		//Esther Tsai
+	public:
+		//Default no-argument constructor
+		Directory_Entry()
+		{
+			//sets both the name and number
+			name = "";
+			number = "";
+		}
+		Directory_Entry(std::string the_name, std::string the_number)
+		{
+			//set name and number based on input
+			name = the_name;
+			number = the_number;
+		}
+		std::string get_name() const
+		{
+			return name;
+		}
+		std::string get_number() const
+		{
+			return number;
+		}
+		void set_number(const std::string& new_number)
+		{
+			number = new_number;
+		}
+	private:
+		//2 data fields
+		std::string name; //name of individual
+		std::string number; //phone number for individual
 	};
 
 	// Private Functions
